@@ -1,5 +1,5 @@
 # Bashlearning
-###############
+----------------------
 Learning Git
 git add .
 git commit -m "updated the readme file"
