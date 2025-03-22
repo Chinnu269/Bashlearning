@@ -19,7 +19,7 @@ echo a                               # Prints  just a
 echo "print the value of a:$a"       # Print the vaule of a
 echo "print the vaule of a: ${a}"    # $a and ${a} both are same they both do the same job but prefer to use with in the flower bracket
 echo "print the vaule of X: ${x}"    # we are not defined any vaule of x but trying to print it gives "Null" it doesn't through any error
-echo "Today's date is: ${DATE}"      # Tp print the date,it is a static variable
+echo "Today's date is: ${DATE}"      #  Hard Coding-To print the date,it is a static variable
 
 #[]  ---> Square bracket
 #()  ---> Paranthesis
