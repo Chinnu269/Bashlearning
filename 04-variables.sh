@@ -15,8 +15,10 @@ c=xyz    # c is a string
 # Syntax:  echo $a
 
 echo a                  # Prints  just a
-echo $a                 # Print the vaule of a
-echo ${a}               # $a and ${a} both are same they both do the same job but prefer to use with in the flower bracket
+echo "print the value of $a"                 # Print the vaule of a
+echo "print the vaule of ${a}"               # $a and ${a} both are same they both do the same job but prefer to use with in the flower bracket
 
 
-
+#[]  ---> Square bracket
+#()  ---> Paranthesis
+#{}  ---> Flower bracket
