@@ -47,6 +47,7 @@ Hi() {
 stat() {
    echo "The number of sessions opened are: $(who |wc -l)"
    echo "Today's Date is: $(date +%D)"
+   echo "Average CPU utillization in last 5 minutes is $(uptime | awk -F : '{print $NF}' | awk -F , '{print $2}')"
    # Calling another function as below
    Hi
 } 
