@@ -25,14 +25,29 @@
 # echo sample call is completed
 # sample
 
+# stat() {
+#    echo "The number of sessions opened are: $(who |wc -l)"
+#    echo "Today's Date is: $(date +%D)"
+# } 
+# stat
+# sleep 1
+# stat
+# sleep 2
+# stat
+# sleep 3
+# stat
+
+# How to call a function from another function
+
+Hi() {
+    echo "I am Hi function"
+    echo "I am here too tell you Hi"
+    echo "Hi function completed"
+}
 stat() {
    echo "The number of sessions opened are: $(who |wc -l)"
    echo "Today's Date is: $(date +%D)"
+   # Calling another function as below
+   Hi
 } 
-stat
-sleep 1
-stat
-sleep 2
-stat
-sleep 3
 stat
