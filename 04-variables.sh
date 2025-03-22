@@ -16,4 +16,7 @@ c=xyz    # c is a string
 
 echo a                  # Prints  just a
 echo $a                 # Print the vaule of a
+echo ${a}               # $a and ${a} both are same they both do the same job but prefer to use with in the flower bracket
+
+
 
