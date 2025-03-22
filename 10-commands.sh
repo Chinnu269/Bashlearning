@@ -16,3 +16,12 @@
 
  # This is how we call a function 
 # f
+
+sample() {
+    echo 'Hi' from sample function
+    echo sample function completed
+}
+sample
+echo sample call is completed
+sample
+
