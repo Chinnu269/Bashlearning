@@ -17,11 +17,22 @@
  # This is how we call a function 
 # f
 
-sample() {
-    echo 'Hi' from sample function
-    echo sample function completed
-}
-sample
-echo sample call is completed
-sample
+# sample() {
+#     echo 'Hi' from sample function
+#     echo sample function completed
+# }
+# sample
+# echo sample call is completed
+# sample
 
+stat() {
+   echo "The number of sessions opened are: ${who |wc -l}"
+   echo "Today's Date is: ${date +%D}"
+} 
+stat
+sleep 1
+stat
+sleep 2
+stat
+sleep 3
+stat
