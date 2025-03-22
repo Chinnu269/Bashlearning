@@ -4,5 +4,5 @@ DATE="$(date +%D)"      # when ever we are giving input as a dynamic variabe we 
 echo "Today's Date is ${DATE}"
 
 Sessions_Count= "$(who |wc -l)"
-echo "Number of active sessions are: ${Sessions_Count}"
+echo "Number of active sessions are:${Sessions_Count}"
 
