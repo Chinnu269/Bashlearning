@@ -12,12 +12,13 @@
 
 # Syntax to print the colour text is :
 
-# echo -e "\e[COLOURCODEm yoour message to be printes in colour \e[0m"
+# echo -e "\e[COLOURCODEm your message to be printes in colour \e[0m"
 
 echo -e "\e[33m I am printing yellow colour \e[0m"
 echo -e "\e[36m I am printing cyan colour \e[0m"
 echo -e "\e[35m I am printing Magneta colour \e[0m"
 
 # To print something with foreground + Background colour here is the syntax:
+# echo -e "\e[Backgroundcode;foregroundcodem your message to print \e[0m"
 
-
+echo -e "\e[43;31m I am printing red colour text and yellow colour background \e[0m"
