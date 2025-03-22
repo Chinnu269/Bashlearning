@@ -12,4 +12,8 @@ echo "Who is the PM of India:$3"
 
 # bash scriptname.sh arg1 arg2 arg3  ----> (bash scriptname.sh $1 $2 ....$9)
 
+echo $$    # It is going to print the PID of the current process
+echo $#    # It is going to print the number of arguments we are passing
+echo $?    # It is going to print the exit code of the last command 
+
 
