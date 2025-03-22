@@ -15,5 +15,7 @@ echo "Who is the PM of India:$3"
 echo $$    # It is going to print the PID of the current process
 echo $#    # It is going to print the number of arguments we are passing
 echo $?    # It is going to print the exit code of the last command 
+echo $*    # It is going to print the list of variables used
+
 
 
