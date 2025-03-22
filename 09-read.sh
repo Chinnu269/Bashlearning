@@ -1,4 +1,4 @@
 #!/bin/bash
 
-read -p "Enter your name:"name
-echo -e "name of the person who ran the script is $name"
+read -p "Enter your Name:" name
+echo -e "Name of the person who ran the script is $name"
