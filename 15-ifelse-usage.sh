@@ -7,10 +7,12 @@ Action=$1
 if [ "$Action" == "start" ]; then
    echo -e "\e[32m Starting Payment Service \e[0m"
    exit 0
-else if [ "$Action" == "stop" ]; then
+
+elif [ "$Action" == "stop" ]; then
    echo -e "\e[31m Stopping Payment Service \e[0m"
    exit 1
-else if [ "$Action" == "restart" ]; then
+
+elif [ "$Action" == "restart" ]; then
    echo -e "\e[33m restarting the payment Service \e[0m"
    exit 2
 else
