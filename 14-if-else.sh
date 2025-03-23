@@ -48,5 +48,25 @@ COMMENT
 
 # what is an expression? When your using operators to perform something is called expression
 
+<<COMMENT
 
+Expressions are categorized into 3 types
+1) Numbers
+2) Strings
+3) Files
+-----------------------
+Operators on numbers
+ -eq, -ne, -gt, -ge, -lt, -le
+
+ [ 1 -eq 1 ]
+ [ 1 -ne 1 ]
+
+ --------------------------
+ Operators on Strings:
+
+ = , == , !=
+
+ Eg:  [ abc=abc ]
+
+COMMENT
 
