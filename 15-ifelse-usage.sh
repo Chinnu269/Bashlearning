@@ -18,4 +18,3 @@ else
    echo -e "\e[35m Exmaple usage \e[0m :\n \t bash scriptname stop"
    exit 3
 fi
-
