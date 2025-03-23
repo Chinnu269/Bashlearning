@@ -46,5 +46,7 @@ fi
 
 COMMENT
 
+# what is an expression? When your using operators to perform something is called expression
+
 
 
