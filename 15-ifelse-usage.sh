@@ -5,13 +5,13 @@ echo "Demo on If conditions usage"
 
 Action=$1
 if [ "$Action" == "start" ]; then
-   echo "Starting Payment Service"
+   echo -e "\e[32m Starting Payment Service \e[0m"
    exit 0
 else if [ "$Action" == "stop" ]; then
-   echo "Stopping Payment Service"
+   echo -e "\e[31m Stopping Payment Service \e[0m"
    exit 1
 else if [ "$Action" == "restart" ]; then
-   echo "restarting the payment Service"
+   echo -e "\e[33m restarting the payment Service \e[0m"
    exit 2
 else
    echo -e "\e[34m valid optins are start or stop or restart \e[0m"
