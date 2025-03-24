@@ -9,7 +9,7 @@ c=xyz    # c is a string
 DATE="22March2025"
 
 # There is no concept of data types in shell scripting by default everything is a string
-# If your input or variables haing some special characters always include them in the double quotes
+# If your input or variables having some special characters always include them in the double quotes
 
 # How to print the variables : Using special characters
 # $ : Dollar symbol is the special character is used to print the variables.
