@@ -10,4 +10,5 @@ exit 1
 fi
 
 echo " Configuring frontend "
-dnf install nginx -y
+dnf install nginx -y  &>> /tmp/frontend.log
+
