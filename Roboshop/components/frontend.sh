@@ -47,4 +47,6 @@ echo -n "Sorting the frontend files:"
 mv frontend-main/* .
 mv static/* .
 rm -rf frontend-main README.md   &>> /tmp/frontend.log
+stat $?
+
 
