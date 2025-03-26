@@ -19,10 +19,10 @@ fi
 
 }
 
-  echo -e "\e[34m Configuring frontend \e[0m \n"
-  echo -n "Installing frontend: "
-  dnf install nginx -y  &>> /tmp/frontend.log
-  stat $?
+echo -e "\e[34m Configuring frontend \e[0m \n"
+echo -n "Installing frontend: "
+dnf install nginx -y  &>> /tmp/frontend.log
+stat $?
 
 
 echo -n "starting nginx: "
@@ -33,3 +33,14 @@ stat $?
 echo -n "Downloading the frontend component:"
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"  &>> /tmp/frontend.log
 stat $?
+
+echo -n "clean up of frontend:"
+cd /usr/share/nginx/html
+rm -rf *   &>> /tmp/frontend.log
+stat $?
+
+echo -n "Extracting the frontend:"
+unzip /tmp/frontend.zip   &>> /tmp/frontend.log
+stat $?
+
+

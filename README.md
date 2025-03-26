@@ -11,3 +11,7 @@
 #### git pull -----> It retrieves the information from the remote respository and  merge with the working directory. it performes both fetch and merge.
 ### To create alias gp="git pull"
 
+# In Bash scripting even if the insturction x fails it goes and execute other commands in sequence
+# That is the default behaviour of BASH
+# If you don't want script to proceed further if in case of any failure use, "set-e" in the begining of the script.
+
