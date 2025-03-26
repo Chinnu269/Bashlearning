@@ -53,7 +53,7 @@ stat $?
 echo -n "Restarting frontend:"
 systemctl daemon-reload  &>> /tmp/fronend.log
 systemctl restart nginx  &>> /tmp/frontend.log
-stata $?
+stat $?
 
 
 
