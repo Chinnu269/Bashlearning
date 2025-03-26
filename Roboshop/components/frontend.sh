@@ -50,4 +50,12 @@ rm -rf frontend-main README.md   &>> /tmp/frontend.log
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $?
 
+echo -n "Restarting frontend:"
+systemctl daemon-reload  &>> /tmp/fronend.log
+systemctl restart nginx  &>> /tmp/frontend.log
+stata $?
+
+
+
+
 
