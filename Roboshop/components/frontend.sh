@@ -12,7 +12,18 @@ fi
   echo -e "\e[34m Configuring frontend \e[0m \n"
   echo -n "Installing frontend: "
   dnf install nginx -y  &>> /tmp/frontend.log
+
 if [ $? -eq 0 ]; then
+  echo -e  "\e[32m success \e[0m"
+else
+  echo -e "\e[31m Failure \e[0m"
+fi
+
+ echo -n "starting nginx: "
+ systemctl enable nginx  &>> /tmp/frontend.log
+ systemclt start nginx   &>> /tmp/frontend.log
+
+ if [ $? -eq 0 ]; then
   echo -e  "\e[32m success \e[0m"
 else
   echo -e "\e[31m Failure \e[0m"
