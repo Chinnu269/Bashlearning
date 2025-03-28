@@ -15,3 +15,5 @@
 # That is the default behaviour of BASH
 # If you don't want script to proceed further if in case of any failure use, "set-e" in the begining of the script.
 
+# git pull origin branchName                            // origin represents remote repository
+# git push origin branchName                            // pushes changes to remote repository
