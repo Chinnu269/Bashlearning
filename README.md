@@ -17,3 +17,6 @@
 
 # git pull origin branchName                            // origin represents remote repository
 # git push origin branchName                            // pushes changes to remote repository
+# git squash commit ID                                  // Sqush will be used to squash the commit
+# git rebase                                            // git rebase will be used to merge all your commits linear manner
+
