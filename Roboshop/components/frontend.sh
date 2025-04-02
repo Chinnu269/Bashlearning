@@ -21,7 +21,7 @@ fi
 
 }
 
-echo -e "\e[34m Configuring frontend \e[0m \n"
+echo -e "\e[34m Configuring the frontend \e[0m \n"
 echo -n "Installing frontend: "
 dnf install nginx -y  &>> /tmp/frontend.log
 stat $?
