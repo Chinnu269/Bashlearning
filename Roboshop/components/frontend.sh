@@ -6,7 +6,7 @@ set -e
 
 USER_ID=$(id -u)
 COMPONENT=frontend
-LOGFILE=/tmp/frontend.log
+LOGFILE=/tmp/${COMPONENT}.log
  
 if [ $USER_ID -ne 0 ]; then
 echo -e "\e[31m Script should be executed by the root user or sudo privilages \e[0m \n Example: sudo bash frontend"
